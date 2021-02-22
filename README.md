@@ -2,7 +2,7 @@
 Automation Test Script that demos if a text box is editable | Robot Framework | Gherkin Language
 
 # AngularJS application test - UI Automation in Robot Framework
-Gherkin(BDD) notation has been used along with Robot Framework & SeleniumLibrary. Page Object Model has been implemented to separte test script file, setup file from the resource and keywords file. Result folder will contain report, log & output files. I've captured Screen shot of the Actual results which are also saved under Results folder.
+Gherkin(BDD) notation has been used along with Robot Framework & SeleniumLibrary. Page Object Model has been implemented to separte test script file, setup file from the resource and keywords file. Reports folder will contain report, log & output files. I've captured Screen shot of the Actual results which are also saved under Reports folder.
 
 Test Suite has 3 folders:
 
@@ -10,7 +10,7 @@ Tests (TodoEdit.robot)- It has driving script, the steps are in the form of Gher
 
 Resources - It has scripts for Setup & Teardwon(Opening & closing browsers), it also has scripts that are user defined Keywords and various page files in POM structure(PO- All the test steps are defined in different files under this sub folder)
 
-Results - Report & Log files in html(can be opened in a browser), output file in XML format.
+Reports - Report & Log files in html(can be opened in a browser), output file in XML format.
 
 # Prerequisites- Install dependencies
 In order to run this Test Automation suite one should have following libraries, softwares, applications installed:
